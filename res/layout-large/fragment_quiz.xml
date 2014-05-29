@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizbg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameQuestionNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing"
+        android:layout_marginLeft="@dimen/spacing"
+        android:layout_marginRight="@dimen/spacing" >
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/questionfield"
+            android:src="@drawable/rectangle" />
+
+        <TextView
+        style="@style/blueQuestion"
+        android:id="@+id/questionNumberTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing"
+        android:gravity="center_horizontal"
+        android:text="@string/question"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/question_number_size" />
+
+    </FrameLayout>
+		<FrameLayout 
+		    android:id="@+id/frameQuestion"
+    		android:layout_width="match_parent"
+    		android:layout_height="200dp"
+    		android:layout_gravity="center_horizontal"
+        	android:layout_margin="@dimen/spacing">
+    
+    		<ImageView
+        		android:id="@+id/imageView1"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+        		android:contentDescription="@string/questionfield"
+        		android:src="@drawable/rectangle" />
+	
+			<TextView
+		   		android:id="@+id/questionTextView"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="center_vertical|center_horizontal"
+	    		android:gravity="center_vertical|center_horizontal"
+	    		android:padding="12dip"
+	    		android:textSize="@dimen/question_size"
+	    		android:text="Η ερωτηση θα μπει εδώ"
+	    		android:textColor="#000000" />
+		</FrameLayout>
+		
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" >
+			
+			<Button
+		    	android:id="@+id/answer1button"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="70dp"
+		    	android:layout_margin="@dimen/button_spacing"
+		    	style="@style/btnStyleArsenic"
+		    	android:text="Button" />
+			
+			<Button
+		    	android:id="@+id/answer2button"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="70dp"
+		    	android:layout_below="@+id/answer1button"
+		    	android:layout_margin="@dimen/button_spacing"
+		    	style="@style/btnStyleArsenic"
+		    	android:text="Button" />
+
+    		<Button
+        		android:id="@+id/answer3button"
+        		android:layout_width="match_parent"
+		    	android:layout_height="70dp"
+		    	android:layout_below="@+id/answer2button"
+		    	android:layout_margin="@dimen/button_spacing"
+		    	style="@style/btnStyleArsenic"
+        		android:text="Button" />
+
+    		<Button
+        		android:id="@+id/answer4button"
+        		android:layout_width="match_parent"
+		    	android:layout_height="70dp"
+        		android:layout_below="@+id/answer3button"
+        		android:layout_margin="@dimen/button_spacing"
+        		style="@style/btnStyleArsenic"
+        		android:text="Button" />
+		
+		</RelativeLayout>
+
+		
+
+</LinearLayout>

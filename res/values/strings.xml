@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iKaterini</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="background">background</string>
+    <string name="ikaterini">iKaterini</string>
+    <string name="question">Personalito-ερώτηση %1$d</string>
+    <string name="questionfield">QuestionField</string>
+    <string name="_">Πάμε πάλι</string>
+    <string name="again">Πάμε πάλι</string>
+    <string name="exit">Έξοδος</string>
+    <string name="doTheTest">Κάνε το τεστ!!!</string>
+    <string name="dialogimg">dialogimg</string>
+
+</resources>

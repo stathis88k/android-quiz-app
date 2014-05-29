@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resultLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results"
+    android:orientation="vertical"
+    android:background="@drawable/r6079" >
+    
+   <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="25dp"
+        style="@style/btnStyleOrange"
+        android:text="@string/exit" />
+
+
+    <Button
+        android:id="@+id/buttonRetry"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/buttonExit"
+        android:layout_alignBottom="@+id/buttonExit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        style="@style/btnStyleShakespeare"
+        android:text="@string/again" />
+</RelativeLayout>
